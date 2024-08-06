@@ -5,7 +5,8 @@ import Particle from "../Particle";
 import Tours from "../../Assets/Projects/Tours.png";
 import greivance from "../../Assets/Projects/greivance.jpeg";
 import Kulkunda from "../../Assets/Projects/Kulkunda.png";
-
+import Kali from "../../Assets/Projects/kali.png";
+import Human from "../../Assets/Projects/Human.png";
 
 function Projects() {
   return (
@@ -46,6 +47,24 @@ function Projects() {
               title="Tours & Travels Website"
               description="Tours and Travels website used to book the trips for you and your family and explore this world usig React Js"
               ghLink="https://github.com/VijayendraNayak/Tours-Travels.git"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Kali}
+              isBlog={false}
+              title="Network Instrusion Detection System"
+              description="A network intrusion detection system (NIDS) monitors network traffic for suspicious activity and potential threats, alerting administrators to security breaches."
+              ghLink="https://github.com/VijayendraNayak/mini-project.git"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Human}
+              isBlog={false}
+              title="3D Virtual-Try-On"
+              description="A 3D virtual try-on allows users to visualize and try on products, such as clothing or accessories, in a virtual environment using augmented reality technology."
+              ghLink="https://github.com/VijayendraNayak/3D-Virtual-Try-On.git"
             />
           </Col>
         </Row>
