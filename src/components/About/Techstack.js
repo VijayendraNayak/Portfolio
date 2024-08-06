@@ -12,7 +12,8 @@ import {
 import {
   SiFirebase,
   SiNextdotjs,
-  SiTailwindcss
+  SiTailwindcss,
+  SiFlask,
 } from "react-icons/si";
 
 function Techstack() {
@@ -29,6 +30,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
