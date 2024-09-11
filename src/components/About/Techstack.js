@@ -60,7 +60,7 @@ function Techstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedise/>
+        <SiRedis/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
