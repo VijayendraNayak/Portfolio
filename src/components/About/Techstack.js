@@ -14,7 +14,10 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiFlask,
-  SiCplusplus
+  SiCplusplus,
+  SiGithub,
+  SiOpenai,
+  SiRedis,
 } from "react-icons/si";
 
 function Techstack() {
@@ -36,6 +39,9 @@ function Techstack() {
         <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -48,7 +54,13 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiOpenai/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedis/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
