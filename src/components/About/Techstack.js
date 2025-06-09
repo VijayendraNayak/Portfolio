@@ -8,6 +8,7 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiPostgresql,
 } from "react-icons/di";
 import {
   SiFirebase,
@@ -18,6 +19,10 @@ import {
   SiGithub,
   SiOpenai,
   SiRedis,
+  SiNestjs,
+  SiTypescript,
+  SiSpring,
+  SiCloudflare, // Placeholder for Render
 } from "react-icons/si";
 
 function Techstack() {
@@ -45,6 +50,9 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiCplusplus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -54,19 +62,31 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiOpenai/>
+        <SiOpenai />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis/>
+        <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpring />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCloudflare /> {/* Placeholder for Render */}
       </Col>
     </Row>
   );
