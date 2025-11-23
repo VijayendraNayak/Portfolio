@@ -22,7 +22,11 @@ import {
   SiNestjs,
   SiTypescript,
   SiSpring,
-  SiCloudflare, // Placeholder for Render
+  SiCloudflare,
+  SiSpringboot,
+  SiApachekafka,
+  SiRabbitmq,
+  SiJira, // Placeholder for Render
 } from "react-icons/si";
 
 function Techstack() {
@@ -30,6 +34,15 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpringboot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachekafka />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRabbitmq />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />

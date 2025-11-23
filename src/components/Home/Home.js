@@ -10,37 +10,46 @@ function Home() {
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
+
         <Container className="home-content">
-          <Row>
+          <Row className="align-items-center">
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 className="heading" style={{ paddingBottom: "0.4rem" }}>
                 Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+                <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
               </h1>
 
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> VIJAYENDRA NAYAK</strong>
+              <h1 className="heading-name" style={{ marginBottom: "0.8rem" }}>
+                I'M <strong className="main-name">VIJAYENDRA NAYAK</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              {/* 🔥 Professional Tags */}
+              <div style={{ marginBottom: "1.2rem" }}>
+                <h4 style={{ color: "rgb(155 126 172)", marginBottom: "0.3rem" }}>
+                  Technical Apprentice @ Target (Fortune 50)
+                </h4>
+                <h5 style={{ color: "rgb(155 126 172)", marginBottom: "0.3rem" }}>
+                  Solved 500+ Problems on LeetCode
+                </h5>
+              </div>
+
+              <div style={{ padding: "20px 0", textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} className="text-center" style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
-                alt="home pic"
+                alt="developer illustration"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "420px" }}
               />
             </Col>
           </Row>
         </Container>
       </Container>
+
       <Home2 />
     </section>
   );

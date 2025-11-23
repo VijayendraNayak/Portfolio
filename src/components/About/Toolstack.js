@@ -7,6 +7,9 @@ import {
   SiVercel,
   SiLinux,
   SiInsomnia,
+  SiJira,
+  SiKaniko,
+  SiIntellijidea,
 } from "react-icons/si";
 import {
   DiAws
@@ -26,6 +29,15 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJira />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKaniko />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
