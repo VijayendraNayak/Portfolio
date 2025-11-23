@@ -32,7 +32,7 @@ function Home2() {
                 <b className="purple">web applications, scalable systems,</b>
               </i>{" "}
               and exploring areas related to{" "}
-              <b className="purple">System desing</b>.
+              <b className="purple">System design</b>.
               <br />
               <br />
               I love working with <b className="purple">Springboot</b>, <b className="purple">Node.js</b> and modern frameworks like{" "}
