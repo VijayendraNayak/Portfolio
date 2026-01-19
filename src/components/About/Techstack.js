@@ -26,7 +26,6 @@ import {
   SiSpringboot,
   SiApachekafka,
   SiRabbitmq,
-  SiJira, // Placeholder for Render
 } from "react-icons/si";
 
 function Techstack() {
