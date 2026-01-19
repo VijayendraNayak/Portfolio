@@ -26,11 +26,8 @@ function Home() {
               {/* 🔥 Professional Tags */}
               <div style={{ marginBottom: "1.2rem" }}>
                 <h4 style={{ color: "rgb(155 126 172)", marginBottom: "0.3rem" }}>
-                  Technical Apprentice @ Target (Fortune 50)
+                  Technical Apprentice @ Target 
                 </h4>
-                <h5 style={{ color: "rgb(155 126 172)", marginBottom: "0.3rem" }}>
-                  Solved 500+ Problems on LeetCode
-                </h5>
               </div>
 
               <div style={{ padding: "20px 0", textAlign: "left" }}>
